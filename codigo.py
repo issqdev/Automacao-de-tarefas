@@ -23,7 +23,7 @@ pyautogui.write("chrome")
 pyautogui.press("enter")
 
 # escolher usuário do google chrome
-pyautogui.click(x=688, y=468)
+pyautogui.click(x=868, y=470)
 
 # entrar no link https://dlp.hashtagtreinamentos.com/python/intensivao/login
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
@@ -35,7 +35,7 @@ time.sleep(3)
 
 # Passo 2: Fazer login
 # selecionar o campo de 'email'
-pyautogui.click(x=705, y=372)
+pyautogui.click(x=682, y=373)
 # escrever o seu email
 pyautogui.write("isaqueoliv.dev@gmail.com")
 # passando pro próximo campo
